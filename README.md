@@ -1,2 +1,2 @@
 # projeto-sneakers
- Página de produto - responsiva
+ Página de produto - não responsiva
