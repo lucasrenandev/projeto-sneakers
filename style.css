@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*  header --> menu */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    height: 85px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    border-bottom: 3px solid #dddddd;
+}
+
+/* left side menu */
+
+.left-side-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav ul li a {
+    color: #68707D;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* right side menu */
+
+.right-side-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-cart {
+    height: 20px;
+}
+
+.img-avatar {
+    height: 45px;
+}
+
+/* main */
+
+main {
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-main {
+    margin: auto;
+    height: 600px; 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* left side main */
+
+.left-side-main {
+    width: 622px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* thumbnails */
+
+.thumbnails {
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnail img {
+    height: 92.5px;
+    border-radius: 10px;
+}
+
+/* right side main */
+
+.right-side-main {
+    max-width: 622px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 265px;
+}
+
+.content {
+    max-width: 400px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content h6 {
+    color: #FF7D1A;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #68707D;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.off {
+    color: #CCCCCC;
+    font-size: 12px;
+}
+
+/* options */
+
+.options {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.options a {
+    background-color: #FF7D1A;
+    width: 153px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.options a img {
+    height: 13px;
+}
+
+.amount {
+    background-color: #F7F8FD;
+    width: 132px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+.amount span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* Responsive */
+
+@media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .item-image img {
+       max-width: 220px;
+       height: 220px;
+   }
+
+   .thumbnail img {
+       max-height: 48px;
+   }
+
+   .right-side-main {
+       width: 300px;
+       margin: auto;
+   }
+
+   .content {
+       margin-top: 100px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .content h1 {
+       text-align: center;
+   }
+
+   .content p {
+       text-align: center;  
+   }
+
+   .options {
+       padding-bottom: 30px;
+   }
+}
+
+@media (max-width: 500px) {
+    .content {
+        max-width: 250px;
+    }
+
+    .options {
+        padding-top: 12px;
+        gap: 15px;
+    }
+
+    .options a {
+        width: 100px;
+        height: 30px;
+    }
+
+    .amount {
+        width: 100px;
+        height: 32px;
+    }
+
+    .right-side-menu {
+        padding: 10px;
+        gap: 12px;
+    }
+
+    .img-avatar {
+        height: 40px;
+    }
+}
