@@ -232,9 +232,6 @@ main {
 /* Responsive */
 
 @media (max-width: 500px) {
-    body {
-        overflow-x: hidden;
-    }
 
     nav {
         display: none;
@@ -278,6 +275,7 @@ main {
 }
 
 @media (max-width: 300px) {
+    
     .content {
         max-width: 250px;
     }
