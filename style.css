@@ -234,7 +234,7 @@ main {
     body, html{
         width: 512px;
         min-height: 875px; 
-        border: 2px solid green;     
+   
     }
 
     nav {
