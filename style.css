@@ -233,8 +233,7 @@ main {
 @media (max-width: 600px) {
     body, html{
         width: 512px;
-        min-height: 875px; 
-   
+        min-height: 875px;    
     }
 
     nav {
