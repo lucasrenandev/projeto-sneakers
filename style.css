@@ -233,7 +233,6 @@ main {
 
 @media (max-width: 600px) {
     body {
-        border: 4px solid violet;
         height: 875px;
     }
 
@@ -242,7 +241,7 @@ main {
     }
 
     main {
-        border: 2px solid blue;
+
         width: 100%;
         height: 450px; 
     }
@@ -266,12 +265,7 @@ main {
         height: auto;
     }
 
-    .left-side-main {
-        border: 2px solid red;
-    }
-
    .content {
-       border: 2px solid red;
        display: flex;
        flex-direction: column;
        justify-content: center;
@@ -279,10 +273,6 @@ main {
        padding-top: 50px;
        text-align: center;
        margin-top: 100px;
-    }
-    
-    .options {
-        border: 2px solid green;
     }
    
 }
