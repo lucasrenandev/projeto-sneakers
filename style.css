@@ -79,7 +79,9 @@ nav ul li a {
 /* main */
 
 main {
-    max-width: 1400px;
+    border: 2px solid blue;
+    max-width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,16 +89,21 @@ main {
 }
 
 .container-main {
+    border: 2px solid red;
     margin: auto;
     height: 600px; 
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 50px;
+    padding: 40px;
 }
 
 /* left side main */
 
 .left-side-main {
+    border: 2px solid green;
     width: 622px;
     display: flex;
     flex-direction: column;
@@ -134,6 +141,7 @@ main {
 /* right side main */
 
 .right-side-main {
+    border: 2px solid violet;
     max-width: 622px;
     display: flex;
     flex-direction: column;
