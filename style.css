@@ -243,16 +243,16 @@ main {
     .item-image img {
        max-width: 220px;
        height: 220px;
-   }
+    }
 
    .thumbnail img {
        max-height: 48px;
-   }
+    }
 
    .right-side-main {
        width: 300px;
        margin: auto;
-   }
+    }
 
    .content {
        margin-top: 100px;
@@ -260,22 +260,22 @@ main {
        flex-direction: column;
        justify-content: center;
        align-items: center;
-   }
+    }
 
    .content h1 {
        text-align: center;
-   }
+    }
 
    .content p {
        text-align: center;  
-   }
+    }
 
    .options {
        padding-bottom: 30px;
-   }
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 300px) {
     .content {
         max-width: 250px;
     }
