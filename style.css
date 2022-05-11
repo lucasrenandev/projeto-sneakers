@@ -89,7 +89,7 @@ main {
 
 .container-main {
     margin: auto;
-    height: 650px; 
+    height: 600px; 
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -258,16 +258,13 @@ main {
         padding-top: 50px;
     }
 
-    main {
-        margin-bottom: 0;
-    }
-
    .content {
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
        padding-top: 100px;
+       
     }
 
    .content h1 {
@@ -278,17 +275,11 @@ main {
        text-align: center;  
     }
 
-    
 }
 
 @media (max-width: 300px) {
     .content {
         max-width: 250px;
-    }
-
-    .options {
-        padding-top: 12px;
-        gap: 15px;
     }
 
     .options a {
