@@ -76,6 +76,7 @@ nav ul li a {
 
 main {
     max-width: 1300px;
+    min-height: 300px;
     margin: 0 auto;
     display: flex;
     align-content: center;
